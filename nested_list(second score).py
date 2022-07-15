@@ -6,7 +6,8 @@ if __name__ == '__main__':
     for _ in range(int(input("Enter range: "))):
        students.append([input("Enter name of student: "),float(input("Enter the marks of the student: "))])
         
-    second_lowest = sorted(students)[1][1]
+    #second_lowest = sorted(students)[1][1]#this does not hadle duplicate values as marks 
+    second_lowest = sorted(list(set([marks for name,marks in students])))[1]
     # print(sorted(students))
     #print(second_lowest)
     print('\n'.join([a for a,b in sorted(students) if b == second_lowest]))
