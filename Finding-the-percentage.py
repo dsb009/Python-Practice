@@ -12,4 +12,10 @@ if __name__ == '__main__':
 problem statement    
 
 https://www.hackerrank.com/challenges/finding-the-percentage/problem?isFullScreen=false
+
+Taking inputs *line explained: 
+https://stackoverflow.com/questions/56658837/how-does-name-line-input-split-work-in-python-3?answertab=trending#tab-top
+
+limiting two decimal places for float:
+https://stackoverflow.com/questions/455612/limiting-floats-to-two-decimal-points
 '''
