@@ -23,6 +23,6 @@ if __name__ == '__main__':
        #print(*color_code)
        for j in color_code:
         print(j)
-    #     [[j for j in  for _ in code re.findall('[\s:](#[a-f0-9]{6}|#[a-f0-9]{3})[\s:;,)]',i,re.IGNORECASE) ]
-    # end = time.time()
-    # print("Time taken in {}".format(start-end))
+    # color_code= [j for j in for i in code re.findall('[\s:](#[a-f0-9]{6}|#[a-f0-9]{3})[\s:;,)]',i,re.IGNORECASE)]
+    end = time.time()
+    print("Time taken in {}".format(start-end))
