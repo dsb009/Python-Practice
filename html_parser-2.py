@@ -10,7 +10,10 @@ class MyHTMLParser(HTMLParser):
             print(data.strip())
     def handle_data(self, data: str) -> None:
         if '\n' in data:
-        print(type(data))
+            data=data.replace("\n", "")
+        else:
+            print(">>> Data")
+            print(data)
 
 html = ""       
 for i in range(int(input())):
