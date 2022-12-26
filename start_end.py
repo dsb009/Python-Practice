@@ -3,8 +3,9 @@ import re
 def startEnd(s,k):
     # while len(s):
     #     return (s.find(k[0]),s.find(k[-1]))
-    m = re.pos(k,s)
-    return (m.start(),m.end())
+    m = re.finditer(k,s)
+    for _ in m:
+        return (m)
 
 if __name__ == '__main__':
     str = input("Enter the string: ")
